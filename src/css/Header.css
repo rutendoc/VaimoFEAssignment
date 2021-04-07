@@ -1,0 +1,13 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header > a{
+    text-decoration: none;
+    color: #000;
+}
