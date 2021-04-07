@@ -1,3 +1,7 @@
+##Instructions for compiling and running the code:
+The app can be cloned from
+##Brief overview of the architecture.
+The app has been built using ReactJS
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
