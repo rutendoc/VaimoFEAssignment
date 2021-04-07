@@ -7,7 +7,7 @@ The app has been built using ReactJS.
 I used simple CSS as I am not well-versed with the recommend CSS preprocessors (Less and Sass).
 
 ## Summary
-This was my first real experience with ReactJS and I found it to be pretty neat. I will definitely use it again. My styling skills need enhancement, as using raw (old school) css is quite tedious. I have enrolled in some short courses to improve this. Fetching data from the API also proved to be a bit of a challenge that I need to practise, and overcome, and as such some of the requirements were not adequately fufilled. This is something I will continue to work on with urgency.
+This was my first real experience with ReactJS and I found it to be pretty neat. I will definitely use it again. My styling skills need enhancement, as using raw (old school) css is quite tedious. I have enrolled in some short courses to improve this. Fetching and manipulating data from the API also proved to be a bit of a challenge that I need to practise, and overcome, and as such some of the requirements were not adequately fufilled. This is something I will continue to work on with urgency.
 
 # Getting Started with Create React App
 
