@@ -1,0 +1,98 @@
+.product__info .addtobox {
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+    width: 306px;
+    max-height: 356px;
+  }
+  
+  .addtobox .cost {
+    color: #333333;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+  }
+  .addtobox .summary{
+    color: #999999;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+  }
+  .addtobox .summary span {
+    text-decoration: underline;
+  }
+  .addtobox .lead-time {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .addtobox .shipping-time {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .addtobox.login__contact {
+    align-items: center;
+    position: absolute;
+     margin: auto;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+  }
+  .addtobox .login__contact .button__1 {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    width: 210px;
+    text-align: center;
+    background-color: #ff6600;
+    border-radius: 20px;
+    border-color: transparent;
+    width: 258px;
+    height: 40px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .addtobox .login__contact .button__1:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 4px darkgray;
+  }
+  .addtobox .login__contact .button__2 {
+    font-family: Roboto;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #ff6600;
+    color: #ff6600;
+    border-radius: 20px;
+    width: 258px;
+    height: 40px;
+    margin-top: 20px;
+    align-content: center;
+    align-Items:center;
+    flex-wrap:wrap;
+  }
+  .addtobox .login__contact .button__2:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 4px darkgray;
+  }

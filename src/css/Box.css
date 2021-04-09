@@ -1,0 +1,329 @@
+.product__info .box {
+    flex: 40%;
+    padding: 20px;
+    width: 80%;
+     margin: auto;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+  }
+  .box .row__badges {
+    margin-bottom: 10px;
+    min-width: 371px;
+    display: flex;
+  }
+  .box .row__badges .ready__to__ship {
+    background-image: linear-gradient(270deg, #f5515f 0%, #ff7527 100%);
+    border-radius: 2px 0 0 2px;
+    border-color: transparent;
+    width: 90px;
+    height: 20px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .box .row__badges .in__stock {
+    color: #ff6600;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    background-color: #fff0e6;
+    width: 75px;
+    height: 20px;
+    border-color: transparent;
+    display:flex;
+    align-Items:center;
+    flex-wrap:wrap;
+  }
+  .box .row__badges .fast__dispatch {
+    color: #ff6600;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    background-color: #fff0e6;
+    border-radius: 0 2px 2px 0;
+    min-width: 106px;
+    height: 20px;
+    border-color: transparent;
+    display:flex;
+    align-Items:center;
+    flex-wrap:wrap;
+  }
+  .box .row__title {
+    color: #333333;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  }
+  .box .row__title .tags {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    background-color: #edf0f3;
+    border-radius: 2px;
+    width: 111px;
+    height: 20px;
+    margin: 10px;
+  }
+  .box .row__rating {
+    display: flex;
+    color: #ff6600;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    max-width: 526px;
+  }
+  .box .row__rating .reviews {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    margin-left: 15px;
+  }
+  .box .row__rating .buyers {
+    color: #333333;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    margin-left: 30px;
+  }
+  .box .row__options {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    max-width: 526px;
+  }
+  .box .row__options .min__max__price {
+    color: #ff6600;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .box .row__options .min__max__price span{
+    color: #999999;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+  }
+  .box .row__options .op__min__order {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .box .row__options .divider{
+    color: #EDF0F3;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+  }
+  .box .row__options .num__options{
+    color: #333333;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+  }
+  .box .row__promo {
+    display: flex;
+    margin-right: 10px;
+    color: #ff6600;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    background-color: #fff0e6;
+    height: 40px;
+    max-width: 526px;
+  }
+  .box .row__promo img {
+    width: 76px;
+    height: 40px;
+  }
+  .free-shipping-up {
+    color: #ff6600;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .on-time-delivery-g {
+    color: #ff6600;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .box .row__discount {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    max-width: 526px;
+  }
+  .box .row__discount .discount__value {
+    color: #ff6600;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 10px;
+    
+  }
+  .box .row__discount .discount-ends-in {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .box .row__discount .timer {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 10px;
+    font-style: italic;
+    margin-left: 20px;
+  }
+  .box .row__products:after {
+    content: "";
+    display: grid;
+    clear: both;
+    max-width: 526px;
+  }
+  .box .row__products .col1 {
+    float: left;
+    width: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    min-width: 50px;
+  }
+  .box .row__products .col2 {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    color: #333333;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    min-width: 100px;
+  }
+  .box .row__products .col3 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    color: #333333;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    min-width: 80px;
+  }
+  .box .row__products .col4 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    align-items: flex-end;
+    min-width: 220px;
+  }
+  .row__trade-assurance {
+    display: flex;
+    margin-right: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+  .trade-assurance {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    font-weight: 1000;
+    display:flex;
+    align-Items:center;
+    flex-wrap:wrap;
+  }
+  .protects-your-alibab {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 5px;
+  }
+  
+  .row__payments {
+    display: flex;
+    margin-right: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+  .row__payments img {
+    margin-left: 5px;
+  }
+  .payments {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+  }
+  .row__links {
+    display: flex;
+    margin-right: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+  .alibaba-com-logistic {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    text-decoration: none;
+  }
+  .inspection-solutions {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 5px;
+  }
